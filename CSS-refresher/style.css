@@ -163,6 +163,8 @@ a {
   padding: 20px;
   background-color: lightcoral;
   margin-bottom: 50px;
+  position: sticky;
+  top: 0;
 }
 
 .header-container {
@@ -222,6 +224,15 @@ h1 {
 .img-right {
   float: right;
   margin-left: 30px;
+}
+
+.whatsapp {
+  position: fixed;
+  right: -2px;
+  bottom: 70px;
+  color: #25d366;
+  /* background-color: #25d366; */
+  /* border-radius: 40%; */
 }
 
 /* Footer */
